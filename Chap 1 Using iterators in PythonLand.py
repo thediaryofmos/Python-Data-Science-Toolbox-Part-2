@@ -94,7 +94,7 @@ mutant_zip = zip(mutants,aliases,powers)
 print(mutant_zip)
 
 # Unpack the zip object and print the tuple values
-for value1, value2,value3 in zip(mutants,aliases,powers):
+for value1, value2,value3 in mutant_zip:
     print(value1, value2, value3)
 ######
 
